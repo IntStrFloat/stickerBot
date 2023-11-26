@@ -1,0 +1,28 @@
+{
+  "name": "sticker_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ffmpeg": "^1.0.7",
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/node": "^20.9.4",
+    "axios": "^1.6.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "grammy": "^1.19.2",
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.32.6"
+  }
+}
